@@ -1,0 +1,5 @@
+---
+- hosts: pie
+  become: yes
+  roles:
+    - pi-hole 
